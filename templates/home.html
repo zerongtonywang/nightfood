@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block meta_extra %}
+  <meta name="description" content="">
+{% endblock %}
+
+{% block head_title %}
+  Absolute madness
+{% endblock %}
+
+{% block head_extra %}
+  <link href="{% static 'css/home.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+{% endblock %}
+
+
+{% block content %}
+  <div class="intro">
+    <div class="container valign-wrapper">
+      <div class="dialog text-center"></div>
+    </div>
+  </div>
+  <div class="typed-text">
+    <span>Brisbane . . .</span>
+    <span>We need to talk about late night food</span>
+    <span>Most importantly, ^500 WHERE ARE THEY?</span>
+  </div>
+{% endblock %}
+
+{% block body_extra %}
+
+  <script src="{% static 'js/typed.js' %}"></script>
+  <script src="{% static 'js/home.js' %}"></script>
+{% endblock %}

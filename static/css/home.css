@@ -1,0 +1,39 @@
+.intro {
+  color: white;
+  background: linear-gradient(141deg, #ff80ab 0%, #ff4081 51%, #f06292 75%); }
+  .intro .container:first-of-type {
+    height: 100vh; }
+
+.dialog {
+  font-size: 34px; }
+
+.typed-cursor {
+  font-size: 34px;
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite; }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/*# sourceMappingURL=home.css.map */
