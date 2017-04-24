@@ -11,25 +11,31 @@
 
 {% block head_extra %}
   <link href="{% static 'css/home.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
-
 {% endblock %}
-
 
 {% block content %}
   <div class="intro">
-    <div class="container valign-wrapper">
-      <div class="dialog text-center"></div>
+    <div class="container">
+      <div class="letter"></div>
     </div>
   </div>
-  <div class="typed-text">
-    <span>Brisbane . . .</span>
-    <span>We need to talk about late night food</span>
-    <span>Most importantly, ^500 WHERE ARE THEY?</span>
+  <div class="letter-text">
+    <p>
+      Dear Brisbane,
+      <br/><br/>
+      ^500 We are at the brink of a <b>cultural crisis,</b>
+      ^300 one that threatens our life prosperity.
+      <br/><br/>
+      ^500 Ewadsd wosda somrqe sd anease sdkuiq sdsd lsdasnr sdad sdjarn psdaq mskq asddas.
+      <br/><br/>
+      <a class="interest-btn waves-effect waves-light btn blue lighten-2">
+        I'm interested!
+      </a>
+    </p>
   </div>
 {% endblock %}
 
 {% block body_extra %}
-
   <script src="{% static 'js/typed.js' %}"></script>
   <script src="{% static 'js/home.js' %}"></script>
 {% endblock %}
